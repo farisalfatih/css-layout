@@ -1,0 +1,140 @@
+.menu {
+  position: fixed;
+  background-color: coral;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 30%;
+}
+
+.menu > header {
+  display: flex;
+  background-color: rgb(139, 69, 18);
+  border-bottom: 3px solid rgb(32, 150, 150);
+}
+
+.menu > header > a {
+  margin: auto 2%;
+  font-size: 130%;
+  color: rgb(44, 21, 5);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu > header > img {
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+  margin: 2%;
+}
+
+.menu > nav {
+  display: grid;
+  margin: 20% 0;
+  margin-left: 15%;
+}
+
+.menu > nav > a {
+  color: rgb(189, 85, 10);
+  font-weight: bold;
+  font-size: 120%;
+  margin: 1.3%;
+  border-left: 2px solid rgb(228, 162, 114);
+  padding-left: 2%;
+  text-decoration: none;
+}
+
+.menu > footer {
+  background-color: black;
+  height: 100%;
+  color: beige;
+}
+
+.menu > footer > p {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  padding: 5%;
+}
+
+.container {
+  margin: 1% 1% 1% 31%;
+  background-color: #efefef;
+  padding: 1%;
+}
+
+.materi {
+  width: 60%;
+  text-align: justify;
+  margin: 3%;
+  background-color: antiquewhite;
+  padding: 1%;
+}
+
+.materi > h2 {
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.z-index {
+  margin-left: 40%;
+}
+
+.content-position p {
+  text-align: justify;
+}
+
+.contoh-position {
+  background-color: aqua;
+  padding: 10px;
+}
+
+.contoh-position-static {
+  position: static;
+}
+
+.contoh-position-relative {
+  position: relative;
+  top: 20px;
+  left: 100px;
+}
+
+.contoh-position-absolute {
+  position: absolute;
+  top: 3px;
+  left: 10px;
+}
+
+.contoh-position-fixed {
+  position: fixed;
+  width: 60%;
+  top: 0;
+}
+
+.contoh-position-sticky {
+  position: sticky;
+  top: 0;
+}
+
+.contoh-z-index-1 {
+  position: fixed;
+  background-color: blue;
+  top: 0;
+  z-index: 2;
+}
+
+.contoh-z-index-2 {
+  position: relative;
+  z-index: 1;
+}
+
+.float > img {
+  height: 300px;
+  float: left;
+  margin: 20px;
+}
+
+.float > p {
+  text-align: justify;
+  margin: 10px;
+}

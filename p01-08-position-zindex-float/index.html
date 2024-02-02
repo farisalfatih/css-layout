@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Position, Z-Index, dan Float</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="position materi">
+        <h2>Position</h2>
+        <p>
+          Properti position mengontrol jenis posisi elemen dalam layout. Nilai
+          umumnya meliputi:
+        </p>
+        <ul>
+          <li>
+            <b>static:</b> Nilai default. Elemen ditempatkan sesuai alur dokumen
+            normal.
+          </li>
+          <li>
+            <b>relative:</b> Elemen ditempatkan sesuai dengan posisinya yang
+            normal, dan kemudian dapat diubah menggunakan properti top, right,
+            bottom, dan left.
+          </li>
+          <li>
+            <b>absolute:</b> Elemen diangkat dari alur normal dokumen dan
+            ditempatkan relatif terhadap elemen yang terdekat yang memiliki
+            posisi bukan static.
+          </li>
+          <li>
+            <b>fixed:</b> Elemen diangkat dari alur normal dan ditempatkan
+            relatif terhadap viewport (tampilan halaman), sehingga akan tetap
+            terlihat ketika halaman di-scroll.
+          </li>
+          <li>
+            <b>sticky:</b> Elemen berperilaku seperti relative sampai mencapai
+            titik scroll tertentu, setelah itu berperilaku seperti fixed.
+          </li>
+        </ul>
+      </div>
+      <div class="z-index materi">
+        <h2>z-index</h2>
+        <p>
+          Properti z-index mengontrol tumpukan (stacking) elemen ketika mereka
+          tumpang tindih. Semakin tinggi nilai z-index, semakin tinggi elemen
+          tersebut di tumpukan.
+        </p>
+        <ul>
+          <li>
+            Elemen dengan z-index yang lebih tinggi akan berada di atas elemen
+            dengan z-index yang lebih rendah.
+          </li>
+          <li>
+            Elemen dengan position: fixed atau position: absolute biasanya
+            memiliki z-index yang lebih tinggi dari elemen dengan position:
+            static atau position: relative untuk memastikan tampilan yang benar
+            di tumpukan.
+          </li>
+        </ul>
+      </div>
+      <div class="float materi">
+        <h2>float</h2>
+        <p>
+          Properti float digunakan untuk menggeser elemen ke kiri atau kanan,
+          dan membuat elemen berada di sebelah kiri atau kanan elemen yang
+          berada di sebelahnya.
+        </p>
+        <ul>
+          <li>
+            <b>float: left:</b> Menggeser elemen ke kiri dan elemen lainnya akan
+            mengalir di sebelah kanan.
+          </li>
+          <li>
+            <b>float: right:</b> Menggeser elemen ke kanan dan elemen lainnya
+            akan mengalir di sebelah kiri.
+          </li>
+          <li>
+            <b>float: none (default):</b> Tidak ada pergeseran. Elemen akan
+            mengikuti alur normal dokumen.
+          </li>
+          <li>
+            <b>clear:</b> Menentukan sisi mana elemen tidak diperbolehkan
+            bergerak. Misalnya, clear: left akan memastikan elemen tidak dapat
+            berada di sebelah kiri elemen lain yang di-float.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="menu">
+      <header>
+        <img src="img/file.jpg" alt="logo" />
+        <a href="index.html">Position, Z-Index, dan Float</a>
+      </header>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="static.html">Contoh Position Static</a>
+        <a href="relative.html">Contoh Position Relative</a>
+        <a href="absolute.html">Contoh Position Absolute</a>
+        <a href="fixed.html">Contoh Position Fixed</a>
+        <a href="sticky.html">Contoh Position Sticky</a>
+        <a href="z-index.html">Contoh Z-Index</a>
+        <a href="float.html">Contoh Float</a>
+      </nav>
+      <footer>
+        <p>&copy; 2024 Position, Z-index, and Float. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>
