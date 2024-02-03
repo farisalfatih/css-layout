@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Layout</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Layout</h1>
+        <p>
+          Dalam konteks CSS (Cascading Style Sheets), "layout" merujuk pada
+          pengaturan tata letak atau struktur halaman web. Layout CSS digunakan
+          untuk mengatur posisi, ukuran, dan hubungan antara elemen-elemen HTML
+          di dalam halaman. Layout mencakup pemosisian elemen, pengaturan kolom,
+          dan penanganan responsif terhadap perubahan ukuran layar atau
+          perangkat.
+        </p>
+        <p>
+          Ada beberapa teknik yang dapat digunakan untuk mencapai layout dalam
+          CSS, termasuk:
+        </p>
+      </div>
+      <div class="content">
+        <div class="materi">
+          <h3>floats:</h3>
+          <p class="materi-paragraf">
+            Menerapkan properti float pada elemen untuk memposisikannya ke sisi
+            kiri atau kanan dari kontainer induk.
+          </p>
+          <p class="materi-code">
+            <span class="tag-html">.example </span>
+            <span class="kurung">{</span>
+            <br />
+            <span class="tag-css">float</span>
+            <span class="value-css">: left;</span>
+            <br />
+            <span class="kurung">}</span>
+          </p>
+        </div>
+        <div class="materi">
+          <h3>flexbox:</h3>
+          <p class="materi-paragraf">
+            Sebuah model tata letak baru yang memungkinkan untuk mengatur elemen
+            dalam suatu kontainer baik secara horizontal maupun vertikal.
+          </p>
+          <p class="materi-code">
+            <span class="tag-html">.example </span>
+            <span class="kurung">{</span>
+            <br />
+            <span class="tag-css">display</span>
+            <span class="value-css">: flex;</span>
+            <br />
+            <span class="tag-css">justify-content</span>
+            <span class="value-css">: space-between;</span>
+            <br />
+            <span class="kurung">}</span>
+          </p>
+        </div>
+        <div class="materi">
+          <h3>grid:</h3>
+          <p class="materi-paragraf">
+            Sebuah sistem tata letak dua dimensi yang memungkinkan untuk membuat
+            layout kompleks dengan mudah.
+          </p>
+          <p class="materi-code">
+            <span class="tag-html">.example </span>
+            <span class="kurung">{</span>
+            <br />
+            <span class="tag-css">display</span>
+            <span class="value-css">: grid;</span>
+            <br />
+            <span class="tag-css">grid-template-columns</span>
+            <span class="value-css">: repeat(3, 1fr);</span>
+            <br />
+            <span class="kurung">}</span>
+          </p>
+        </div>
+        <div class="materi">
+          <h3>positioning:</h3>
+          <p class="materi-paragraf">
+            Menggunakan properti position untuk mengendalikan posisi elemen.
+          </p>
+          <p class="materi-code">
+            <span class="tag-html">.example </span>
+            <span class="kurung">{</span>
+            <br />
+            <span class="tag-css">position</span>
+            <span class="value-css">: absolute;</span>
+            <br />
+            <span class="tag-css">top</span>
+            <span class="value-css">: 0;</span>
+            <br />
+            <span class="tag-css">left</span>
+            <span class="value-css">: 0;</span>
+            <br />
+            <span class="kurung">}</span>
+          </p>
+        </div>
+        <div class="materi">
+          <h3>Responsive Design:</h3>
+          <p class="materi-paragraf">
+            Menggunakan media queries dan unit ukuran yang responsif untuk
+            membuat tata letak yang dapat beradaptasi dengan perubahan ukuran
+            layar.
+          </p>
+          <p class="materi-code">
+            <span class="tag-html">@media screen and (max-width: 600px) </span>
+            <span class="kurung">{</span>
+            <br />
+            <span class="tag-css tag-coment">
+              /* Styles for small screens */
+            </span>
+            <br />
+            <span class="kurung">}</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: blanchedalmond;
+  text-align: justify;
+  color: rgb(63, 39, 3);
+}
+
+.container {
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: rgb(7, 142, 142);
+}
+
+.header {
+  margin: 10px auto;
+  width: 80%;
+}
+
+.header > h1 {
+  background-color: rgb(26, 130, 130);
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+}
+
+.header > p {
+  text-indent: 20px;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.content {
+  display: inline-flex;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.materi {
+  background-color: rgb(100, 180, 214);
+  margin: 10px auto;
+  width: 300px;
+  padding: 20px;
+}
+
+.materi > h3 {
+  margin: 0;
+  background-color: rgb(34, 207, 207);
+  padding: 5px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.materi-code {
+  margin: 10px;
+  background-color: rgb(2, 58, 58);
+  padding: 10px;
+  text-align: left;
+}
+
+.tag-html {
+  color: aqua;
+}
+
+.kurung {
+  color: antiquewhite;
+}
+
+.tag-css {
+  color: aquamarine;
+  padding-left: 20px;
+}
+
+.value-css {
+  color: rgb(190, 57, 79);
+}
+
+.tag-coment {
+  color: darkslategray;
+}
