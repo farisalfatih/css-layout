@@ -1,0 +1,55 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  width: 960px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+nav {
+  background-color: gray;
+  padding: 10px;
+}
+
+nav a {
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(44, 38, 38);
+}
+
+.content-header {
+  background-color: grey;
+  color: rgb(44, 44, 44);
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.content-header h2 {
+  margin: 0;
+  border-bottom: 2px solid #efefef;
+  padding-bottom: 10px;
+}
+
+main {
+  display: inline-flex;
+}
+
+.content,
+footer {
+  background-color: grey;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.content p {
+  text-align: justify;
+  text-indent: 30px;
+}
+
+.content-2 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
